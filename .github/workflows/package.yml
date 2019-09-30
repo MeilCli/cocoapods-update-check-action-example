@@ -3,9 +3,9 @@ name: Check Package
 on: 
   schedule:
     #- cron: '0 8 * * 5' # every friday AM 8:00
-    - cron: '34 * * * *'
+    - cron: '40 * * * *'
 jobs:
-  npm:
+  cocoapod:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
